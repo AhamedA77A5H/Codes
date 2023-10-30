@@ -1,0 +1,7 @@
+Bread_Large 2 19
+Bread_Small 1.5 25
+Bread_Roll 0.3 28
+Doughnut 0.8 26
+Muffin 1.2 10
+Cup_Cake 1.5 25
+Pastry 1.5 25

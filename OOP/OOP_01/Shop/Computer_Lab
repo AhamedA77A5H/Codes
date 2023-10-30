@@ -1,0 +1,60 @@
+class DesktopComputers
+{
+    String name;
+    String type;
+}
+
+class WhiteBoards {
+    String quality;
+    String size;
+
+}
+
+class Projector {
+    String type;
+    String performance;
+}
+
+class Lecturer {
+    String name;
+    String phoneNumber;
+
+}
+
+
+class ComputerLab {
+    DesktopComputers desktopComputers;
+    WhiteBoards whiteBoard;
+    Projector projector;
+    Lecturer lecturer;
+
+    public void practiseCode() {
+        System.out.println("learn how to code.");
+    }
+
+     public void teachingAid() {
+        System.out.println("Helps lecturers in teaching.");
+    }
+
+      public void visualLearning() {
+        System.out.println("Students can get a better idea on what they are learning.");
+    }
+
+    public void teachUsStuff() {
+        System.out.println("Lectures teaches students lessons that are relavant to the subject.");
+    }
+}
+
+
+public class LearningJava {
+
+
+  public static void main(String []args) {
+       ComputerLab computerLab = new ComputerLab();
+       computerLab.practiseCode();
+       computerLab.teachingAid();
+       computerLab.visualLearning();
+       computerLab.teachUsStuff();
+
+   }
+}
