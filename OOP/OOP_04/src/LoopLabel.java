@@ -1,5 +1,6 @@
 public class LoopLabel
 {
+    @SuppressWarnings("unused")
     public static void main(String[] args)
     {
         outerLoop:

@@ -1,5 +1,6 @@
 public class MultidimensionalArrays
 {
+    @SuppressWarnings("unused")
     public static void main(String[] args)
     {
         int [][] grid =
