@@ -6,18 +6,18 @@ public class Return
         int target = 3;
         findValue(array, 3);
     }
-        public static void findValue (int [] array, int target)
+    public static void findValue (int [] array, int target)
+    {
+        for (int i = 0; i < array.length; i++)
         {
-            for (int i = 0; i < array.length; i++)
+            if (array[i] == target)
             {
-                if (array[i] == target)
-                {
-                    //Value found, return of perform some action
-                    System.out.println("target = " + target);
-                    System.out.println("i = " + i);
-                    return;
-                }
+                //Value found, return of perform some action
+                System.out.println("target = " + target);
+                System.out.println("i = " + i);
+                return;
             }
         }
+    }
 
 }
