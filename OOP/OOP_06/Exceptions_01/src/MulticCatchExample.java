@@ -6,6 +6,7 @@ public class MulticCatchExample
         try 
         {
             int[] numbers = {1, 2, 3};
+            @SuppressWarnings("unused")
             int result = numbers[5] / 0;
 
         } 
